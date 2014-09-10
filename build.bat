@@ -1,0 +1,1 @@
+gcc pretty.c -std=c99

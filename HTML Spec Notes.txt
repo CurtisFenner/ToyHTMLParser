@@ -1,0 +1,64 @@
+P TAG
+	End P tag is implied by:
+		1) Followed By Any of:
+			address
+			article
+			aside
+			blockquote
+			div
+			dl
+			fieldset
+			footer
+			form
+			h1
+			h2
+			h3
+			h4
+			h5
+			h6
+			header
+			hr
+			menu
+			nav
+			ol
+			pre
+			section
+			table
+			ul
+			p
+
+		2) Followed by a closing tag (element) which is not an A tag
+
+
+LI Tag
+	Close by ANY tag (closing or opening) because:
+		Only permitted in OL, UL, MENU
+		Each, (if they contain any LI in case of menu) may ONLY contain LI tags
+		and either a new LI tag or the closing of the parent (only permitted parents = OL,UL,MENU)
+		marks that the LI should be closed.
+
+Void Tag List
+	area
+		ar + lenght 4
+	base
+		ba (b) or BA + length 4
+	br
+		br (b) or B + length 2
+	col
+		CO length 3
+	embed
+		E length 5
+	hr
+		HR
+	img
+		IM
+	input
+		IN length 5
+	link
+		L length 4
+	meta
+		MET (menu)
+	param
+		P length 5
+	source
+		SO
